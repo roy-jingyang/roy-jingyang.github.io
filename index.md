@@ -2,6 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
+layout: default
 title: "Homepage"
 permalink: /
 ---
@@ -17,22 +18,25 @@ current research interests include:
 
 Education
 ---------
-- PhD (current), Queensland University of Technology, Australia
+PhD (current), Queensland University of Technology, Australia
 
-advised by Dr Chun Ouyang, Prof Arthur ter Hofstede, and Prof Wil van der
-Aalst
+  *Thesis title: "Discover Organizational Knowledge via Process Mining"*, 
+  advised by Dr Chun Ouyang, Prof Arthur ter Hofstede, and Prof Wil van
+  der Aalst
 
-- M.Eng (2019), Sun Yat-sen University, China
+M.Eng (2019), Sun Yat-sen University, China
 
-advised by Prof Yang Yu
+  *Thesis title: "An Organizational Mining Method for Supporting Business
+  Process Redesign"*, 
+  advised by Prof Yang Yu
 
-- B.Eng (2016), Sun Yat-sen University, China
+B.Eng (2016), Sun Yat-sen University, China
 
 
 Experiences
 -----------
 ### Academic
-- Visiting research student (July 2018 - Nov 2018),
+- Visiting research student (July 2018 -- Nov 2018),
 School of Information Systems, Queensland University of Technology
 
 - Visiting research student (May 2017),
@@ -50,6 +54,17 @@ School of Data and Computer Science, Sun Yat-sen University
 
 - Teaching Assistant, *Programming in High-Level Language*, Semester 2 2017. 
 School of Data and Computer Science, Sun Yat-sen University
+
+
+Publications
+------------
+
+Yang, J., Ouyang, C., Pan, M., Yu, Y., & ter Hofstede, A. H. 
+  (2018, September). 
+  Finding the “Liberos”: discover organizational models with overlaps. 
+  In *International Conference on Business Process Management (pp.339-355).* 
+  Springer, Cham.
+  [[doi]](https://doi.org/10.1007/978-3-319-98648-7_20)
 
 
 Honors and Awards
