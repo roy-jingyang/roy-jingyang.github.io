@@ -2,6 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
+author: Jing Yang
 title: Roy Jing YANG
 email: roy.j.yang@qut.edu.au
 motto: >
@@ -45,7 +46,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: roy-jingyang # your GitHub user name
 twitter_username: # your Twitter handle
 linkedin_username: jing-yang-246507198
-scholar_userid: Ms1FNhsAAAAJ # your Google Scholar ID
+scholar_userid: #Ms1FNhsAAAAJ # your Google Scholar ID
 orcid_id: 0000-0001-9218-6954 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username

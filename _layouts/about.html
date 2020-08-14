@@ -17,27 +17,30 @@ layout: default
 
   <article>
     <div class="row">
-      <div class="col">
+      <div class="col-md-8">
         {{ content }}
       </div>
-        {% if page.profile %}
-        <div class="profile col-4 {% if page.profile.align == 'left' %}order-first{% endif %}">
-          {% if page.profile.image %}
-            <img class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
-          {% endif %}
-          {% if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
+
+      {% if page.profile %}
+      <div class="profile col-md-4 d-none d-md-block
+        {% if page.profile.align == 'left' %}order-first{% endif %}">
+        {% if page.profile.image %}
+          <img class="img-thumbnail z-depth-1 rounded d-block mx-auto w-75" 
+            src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
+        {% endif %}
+        <div class="contact mb-4">
+          {% if page.social %}
+            {% assign show_label = true %}
+            {% include social.html %}
           {% endif %}
         </div>
-        {% endif %}
+      </div>
+      {% endif %}
     </div>
 
     {% if page.news %}
       {% include news.html %}
     {% endif %}
-
   </article>
 
 </div>

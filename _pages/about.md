@@ -5,9 +5,12 @@ permalink: /
 description:
 
 profile:
-  align: right
-  image: icon.jpg
-  address: >
+  align: left
+  image: avatar.jpg
+  address: 
+    School of Information Systems,
+    Queensland University of Technology.
+    2 George St Brisbane, QLD 4000, Australia
 
 news: false
 social: true
@@ -15,7 +18,7 @@ social: true
 
 I am a PhD candidate at the School of Information Systems, 
 Queensland University of Technology (QUT), and a researcher in the areas 
-of Process Mining as well as Business Process Management (BPM). His 
+of Process Mining as well as Business Process Management (BPM). My 
 current research interests include:
 
 - Organizational Model Mining
@@ -41,7 +44,7 @@ M.Eng (2019), Sun Yat-sen University, China
 
 B.Eng (2016), Sun Yat-sen University, China
 
-
+***
 #### Experiences
 
 - Visiting research student (July 2018 -- Nov 2018),
@@ -50,6 +53,7 @@ School of Information Systems, Queensland University of Technology
 - Visiting research student (May 2017),
 School of Information Systems, Queensland University of Technology
 
+***
 #### Publications
 
 Yang, J., Ouyang, C., Pan, M., Yu, Y., & ter Hofstede, A. H. 
@@ -59,7 +63,7 @@ Yang, J., Ouyang, C., Pan, M., Yu, Y., & ter Hofstede, A. H.
   Springer, Cham.
   [[doi]](https://doi.org/10.1007/978-3-319-98648-7_20)
 
-
+***
 #### Honors and Awards
 
 - Australian Commonwealth Research Training Program (Scholarship), 
