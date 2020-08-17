@@ -17,17 +17,19 @@ layout: default
 
   <article>
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-12">
+        {% if page.profile.image %}
+          <img class="z-depth-1 rounded-circle w-25 float-right ml-2
+            d-none d-md-block" 
+            src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
+        {% endif %}
         {{ content }}
       </div>
 
+      <!--
       {% if page.profile %}
       <div class="profile col-md-4 d-none d-md-block
         {% if page.profile.align == 'left' %}order-first{% endif %}">
-        {% if page.profile.image %}
-          <img class="img-thumbnail z-depth-1 rounded d-block mx-auto w-75" 
-            src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
-        {% endif %}
         <div class="contact mb-4">
           {% if page.social %}
             {% assign show_label = true %}
@@ -37,6 +39,7 @@ layout: default
       </div>
       {% endif %}
     </div>
+  -->
 
     {% if page.news %}
       {% include news.html %}

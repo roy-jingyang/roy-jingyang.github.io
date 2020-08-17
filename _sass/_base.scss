@@ -4,9 +4,8 @@
 
 // Typography
 
-article {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+body {
+  font-family: Arial, Helvetica, sans-serif; // web-safe fonts first
 }
 
 a, table.table a {
@@ -41,11 +40,9 @@ a, table.table a {
 
 .profile {
     .contact {
-      font-size: 0.75rem;
-      margin-top: 0.75rem;
+      margin-top: 1rem;
     }
     .contact-icon {
-      font-size: 1rem;
       a {
         color: $grey-color-dark;
         &:hover {

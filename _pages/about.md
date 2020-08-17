@@ -5,7 +5,7 @@ permalink: /
 description:
 
 profile:
-  align: left
+  align: right
   image: avatar.jpg
   address: 
     School of Information Systems,
@@ -23,7 +23,6 @@ current research interests include:
 
 - Organizational Model Mining
 - Business Process Redesign 
-
 
 #### Education
 
@@ -44,7 +43,6 @@ M.Eng (2019), Sun Yat-sen University, China
 
 B.Eng (2016), Sun Yat-sen University, China
 
-***
 #### Experiences
 
 - Visiting research student (July 2018 -- Nov 2018),
@@ -53,7 +51,6 @@ School of Information Systems, Queensland University of Technology
 - Visiting research student (May 2017),
 School of Information Systems, Queensland University of Technology
 
-***
 #### Publications
 
 Yang, J., Ouyang, C., Pan, M., Yu, Y., & ter Hofstede, A. H. 
@@ -63,7 +60,6 @@ Yang, J., Ouyang, C., Pan, M., Yu, Y., & ter Hofstede, A. H.
   Springer, Cham.
   [[doi]](https://doi.org/10.1007/978-3-319-98648-7_20)
 
-***
 #### Honors and Awards
 
 - Australian Commonwealth Research Training Program (Scholarship), 

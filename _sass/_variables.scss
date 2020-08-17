@@ -5,7 +5,7 @@
 
 // Dimensions
 
-$max-content-width: 800px;
+$max-content-width: 992px;
 
 // Colors
 $red-color:           #FF3636 !default;
@@ -30,7 +30,7 @@ $grey-color-light:    lighten($grey-color, 40%);
 $grey-color-dark:     darken($grey-color, 25%);
 
 /* Set theme colors *************************/
-$theme-color:         $blue-color-pms541;
+$theme-color:         $cyan-color;
 
-$link-color:          $theme-color;
+$link-color:          $blue-color-dark;
 $text-color:          #111 !default;
