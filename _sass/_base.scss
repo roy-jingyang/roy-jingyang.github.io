@@ -6,6 +6,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif; // web-safe fonts first
+  overflow: scroll;
 }
 
 a, table.table a {
@@ -43,6 +44,8 @@ a, table.table a {
       margin-top: 1rem;
     }
     .contact-icon {
+      font-size: 0.875rem;
+      //font-weight: bolder;
       a {
         color: $grey-color-dark;
         &:hover {
@@ -52,7 +55,7 @@ a, table.table a {
       }
     }
     .contact-note {
-      font-size: 0.8rem;
+      font-size: 0.75rem;
     }
 
 }

@@ -8,42 +8,64 @@ layout: default
     {% assign name = site.title | split: ' ' %}
     {% assign firstname = name | first %}
     {% if name.size > 2 %}
-       {% assign middlenames =  name | slice:1, name.size-1 | join:" " %}
+      {% assign middlenames =  name | slice:1, name.size-1 | join:" " %}
     {% else %}
-       {% assign middlenames = '' %}
+      {% assign middlenames = '' %}
     {% endif %}
     {% assign lastname = name | last %}
   </header>
 
   <article>
     <div class="row">
-      <div class="col-12">
-        {% if page.profile.image %}
-          <img class="z-depth-1 rounded-circle w-25 float-right ml-2
-            d-none d-md-block" 
-            src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
-        {% endif %}
-        {{ content }}
+    <div class="profile mb-4 col-12 d-block d-md-none">
+      <div class="row">
+      <div class="col-3">
+        <img class="image-thumbnail z-depth-1 w-75 rounded-circle 
+          d-block mx-auto"
+          src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
       </div>
-
-      <!--
-      {% if page.profile %}
-      <div class="profile col-md-4 d-none d-md-block
-        {% if page.profile.align == 'left' %}order-first{% endif %}">
-        <div class="contact mb-4">
+      <div class="col-9 d-block my-auto">
+        <span class="font-weight-bold">
+          {{ page.profile.keywords | replace: " ", "&nbsp;" 
+            | replace: ",&nbsp;", ", " }}
+        </span>
+      </div>
+      </div>
+    </div>
+    <div class="profile col-md-3 d-none d-md-block">
+      <img class="image-thumbnail z-depth-1 rounded-circle w-75 
+        d-block mx-auto"
+        src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
+      
+        <div class="contact text-nowrap mt-4 d-block mx-auto">
           {% if page.social %}
             {% assign show_label = true %}
             {% include social.html %}
           {% endif %}
-        </div>
       </div>
+    </div>
+
+    <div class="col-md-9">
+      <div class="d-none d-md-block">
+        <h2 class="font-weight-normal title">
+          <span class="font-weight-bolder">{{ firstname }}</span> 
+          {{ middlenames }}  {{ lastname }}
+        </h2>
+        <h6 class="font-weight-bold">
+          {{ page.profile.keywords | replace: " ", "&nbsp;" 
+            | replace: ",&nbsp;", ", " }}
+        </h6>
+        <hr>
+      </div>
+
+      {{ content }}
+      <hr>
+
+      {% if page.news %}
+        {% include news.html %}
       {% endif %}
     </div>
-  -->
-
-    {% if page.news %}
-      {% include news.html %}
-    {% endif %}
+  </div>
   </article>
 
 </div>

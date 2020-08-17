@@ -2,11 +2,12 @@
 layout: about
 title: about
 permalink: /
-description:
 
 profile:
-  align: right
   image: avatar.jpg
+  keywords: 
+    PhD candidate,
+    process mining researcher @ QUT
   address: 
     School of Information Systems,
     Queensland University of Technology.
@@ -16,10 +17,8 @@ news: false
 social: true
 ---
 
-I am a PhD candidate at the School of Information Systems, 
-Queensland University of Technology (QUT), and a researcher in the areas 
-of Process Mining as well as Business Process Management (BPM). My 
-current research interests include:
+#### Research
+My current research interests include:
 
 - Organizational Model Mining
 - Business Process Redesign 
