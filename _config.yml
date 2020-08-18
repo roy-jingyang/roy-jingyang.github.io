@@ -9,7 +9,7 @@ motto: >
   <a href="https://zh.wikisource.org/wiki/%E5%B2%B3%E9%99%BD%E6%A8%93%E8%A8%98"
   target="_blank">“不以物喜，不以己悲”（<宋>范仲淹 1046）</a>
 description: > # this means to ignore newlines until "url:"
-  Personal website of Jing Yang (Roy).
+  Welcome to my personal website
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>,
   based on <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
