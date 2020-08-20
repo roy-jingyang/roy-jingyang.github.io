@@ -1,11 +1,16 @@
 /******************************************************************************
  * Content
  ******************************************************************************/
+ html, body {
+   height: 100%;
+ }
  
  body {
    padding-bottom: 70px;
    color: $text-color;
    overflow-y: scroll;
+   display: flex;
+   flex-direction: column;
  }
 
  body.fixed-top-nav {
@@ -30,6 +35,10 @@
 }
 
 // TODO: redefine content layout.
+div.content {
+  // let content div takes up the rest of the space
+  flex-grow: 1;
+}
 
 
 /******************************************************************************

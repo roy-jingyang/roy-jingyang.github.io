@@ -27,7 +27,7 @@ last_updated: true
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 # TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
