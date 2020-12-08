@@ -5,9 +5,8 @@ permalink: /
 
 profile:
   image: avatar.jpg
-  keywords: 
-    PhD candidate,
-    process mining researcher @ QUT
+  keywords:
+    process mining, knowledge engineering and discovery, PhD candidate
   address: 
     School of Information Systems,
     Queensland University of Technology.
@@ -21,7 +20,7 @@ social: true
 My current research interests include:
 
 - Organizational Model Mining
-- Business Process Redesign 
+- Application of Predictive Process Monitoring in Smart Agriculture
 
 #### Education
 
