@@ -2,8 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-author: Jing Yang
-title: Roy Jing Yang
+author: Roy Jing Yang
+author_other: 杨靖
+title: Roy J Yang
 email: roy.j.yang@qut.edu.au
 motto: >
   <a href="https://zh.wikisource.org/wiki/%E5%B2%B3%E9%99%BD%E6%A8%93%E8%A8%98"
@@ -11,8 +12,8 @@ motto: >
 description: > # this means to ignore newlines until "url:"
   Welcome to my personal website
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>,
-  based on <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.
+  Based on <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 # the base hostname & protocol for your site
@@ -129,8 +130,9 @@ plugins:
 scholar:
 
   last_name: Yang
+  first_name: [Jing, J.]
 
-  style: apa
+  style: 
   locale: en
 
   sort_by: year
@@ -194,3 +196,4 @@ mdb:
 popper:
   version: "2.4.0"
   integrity: "sha256-OH05DFHUWzr725HmuHo3pnuvUUn+TJuj8/Qz9xytFEw="
+  
