@@ -49,16 +49,21 @@
             {% endunless %}
           {% endif %}
         {% endfor %}
+		
+		{% if entry.year %}
+		({{entry.year}})
+		{% endif %}
       </span>
 
       <span class="periodical">
+	  {% if entry.accepted == "true" %}
+		<em> (accepted) </em>
+	  {% endif %}
+	  
       {% if entry.type == "article" %}
         <em>{{entry.journal}}</em>
       {% elsif entry.type == "inproceedings" %}
         <em>In {{entry.booktitle}}</em>
-      {% endif %}
-      {% if entry.year %}
-        {{entry.year}}
       {% endif %}
       </span>
     {% endif %}
@@ -66,6 +71,9 @@
     <span class="links">
     {% if entry.abstract %}
       [<a class="abstract">Abs</a>]
+    {% endif %}
+	{% if entry.doi %}
+      [<a href="https://doi.org/{{ entry.doi }}" target="_blank">doi</a>]
     {% endif %}
     {% if entry.arxiv %}
       [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
@@ -87,6 +95,9 @@
     {% endif %}
     {% if entry.code %}
       [<a href="{{ entry.code }}" target="_blank">Code</a>]
+    {% endif %}
+	{% if entry.demo %}
+      [<a href="{{ entry.demo }}" target="_blank">demo</a>]
     {% endif %}
     </span>
 

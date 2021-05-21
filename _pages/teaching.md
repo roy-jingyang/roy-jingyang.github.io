@@ -6,23 +6,20 @@ description:
 nav: true
 ---
 
-##### Active
+### Active
 
 <hr>
 
-##### Past
+### Past
 
-- Tutor, *Rapid Web Development (IFN557)*, Semester 2 2020.
+- Tutor, *Rapid Web Development (IFN557)*, 2020.
 School of Information Systems, Queensland University of Technology
 
-- Tutor, *Rapid Web Development (IFN557)*, Semester 1 2020.
-School of Information Systems, Queensland University of Technology
-
-- Teaching Assistant, *Workflow Technology*, Semester 2 2018. 
+- Teaching Assistant, *Workflow Technology*, 2018. 
 School of Data and Computer Science, Sun Yat-sen University
 
-- Teaching Assistant, *System Analysis and Design*, Semester 2 2017. 
+- Teaching Assistant, *System Analysis and Design*, 2017. 
 School of Data and Computer Science, Sun Yat-sen University
 
-- Teaching Assistant, *Programming in High-Level Language*, Semester 2 2015. 
+- Teaching Assistant, *Programming in High-Level Language*, 2015. 
 School of Software, Sun Yat-sen University

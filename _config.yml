@@ -2,8 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-author: Jing Yang
-title: Roy Jing Yang
+author: Roy Jing Yang
+author_other: 杨靖
+title: Roy J Yang
 email: roy.j.yang@qut.edu.au
 motto: >
   <a href="https://zh.wikisource.org/wiki/%E5%B2%B3%E9%99%BD%E6%A8%93%E8%A8%98"
@@ -11,8 +12,8 @@ motto: >
 description: > # this means to ignore newlines until "url:"
   Welcome to my personal website
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>,
-  based on <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.
+  Based on <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 # the base hostname & protocol for your site
@@ -129,8 +130,9 @@ plugins:
 scholar:
 
   last_name: Yang
+  first_name: [Jing, J.]
 
-  style: apa
+  style: 
   locale: en
 
   sort_by: year
@@ -160,37 +162,3 @@ enable_progressbar:       true
 enable_tooltips:          false
 show_social_icons:        true
 
-# -----------------------------------------------------------------------------
-# Library versions
-# -----------------------------------------------------------------------------
-
-academicons:
-  version: "1.8.6"
-  integrity: "sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw="
-bootstrap:
-  version: "4.4.1"
-  integrity:
-    css: "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-    js: "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-fontawesome:
-  version: "5.13.0"
-  integrity: "sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
-jquery:
-  version: "3.4.1"
-  integrity: "sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-katex:
-  version: "0.11.1"
-  integrity:
-    css: "sha256-V8SV2MO1FUb63Bwht5Wx9x6PVHNa02gv8BgH/uH3ung="
-    js: "sha256-F/Xda58SPdcUCr+xhSGz9MA2zQBPb0ASEYKohl8UCHc="
-mansory:
-  version: "4.2.2"
-  integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
-mdb:
-  version: "4.17.0"
-  integrity:
-    css: "sha256-/SwJ2GDcEt5382i8zqDwl36VJGECxEoIcBIuoLmLR4g="
-    js: "sha256-UGNYR+uy841zU5TiO2yXD96UktHt9TM4/WXvsDLr4l0="
-popper:
-  version: "2.4.0"
-  integrity: "sha256-OH05DFHUWzr725HmuHo3pnuvUUn+TJuj8/Qz9xytFEw="

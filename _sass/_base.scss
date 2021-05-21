@@ -5,7 +5,11 @@
 // Typography
 
 body {
-  font-family: Arial, Helvetica, sans-serif; // web-safe fonts first
+  font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Lora, "Times New Roman", Times, serif;
 }
 
 a, table.table a {
@@ -246,7 +250,6 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
   h2.year {
     color: $grey-color-light;
     border-top: 1px solid $grey-color-light;
@@ -276,7 +279,7 @@ footer.sticky-bottom {
         display: block;
       }
       .title {
-        font-weight: bolder;
+        font-weight: bold;
       }
       .author {
         a {
