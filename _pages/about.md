@@ -6,7 +6,7 @@ permalink: /
 profile:
   image: avatar.jpg
   keywords:
-    researcher, process mining, knowledge discovery and engineering
+    researcher, process mining, data mining
   address: 
     School of Information Systems,
     Queensland University of Technology.
