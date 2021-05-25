@@ -12,16 +12,17 @@ profile:
     Queensland University of Technology.
     2 George St Brisbane, QLD 4000, Australia
 
+selected_papers: true
 news: false
 social: true
 ---
 
-### Research
+#### Research
 My research interests include:
 - Organizational Model Mining
 - Application of Predictive Process Monitoring in Smart Agriculture
 
-### Education
+#### Education
 
 - PhD (current), Queensland University of Technology, Australia \\
   *Thesis title: "Discover Organizational Knowledge via Process Mining"*, \\
@@ -36,14 +37,14 @@ My research interests include:
   advised by [Prof Yang Yu](http://sdcs.sysu.edu.cn/content/2529).
 - B.E. (2016), Sun Yat-sen University, China
 
-### Experiences
+#### Experiences
 
 - Workforce analyst (March - May 2021),
 Dnata Catering Australia (Brisbane)
 - Visiting research student (May 2017; July - November 2018),
 School of Information Systems, Queensland University of Technology
 
-### Honors and Awards
+#### Honors and Awards
 
 - Australian Commonwealth Research Training Program (Scholarship), 
 2019-2022

@@ -4,15 +4,11 @@
 <div class="row">
   <div class="col-sm-2 abbr">
   {% if entry.abbr %}
-    {% if site.data.venues[entry.abbr] %}
-    <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
-    {% else %}
-    <abbr class="badge">{{entry.abbr}}</abbr>
-    {% endif %}
+    <abbr class="badge {% if entry.selected %}badge-primary{% else %}badge-info{% endif %}">{{entry.abbr}}</abbr>
   {% endif %}
   </div>
 
-  <div id="{{entry.key}}" class="col-sm-8">
+  <div id="{{entry.key}}" class="col-sm-10">
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
@@ -63,7 +59,10 @@
       {% if entry.type == "article" %}
         <em>{{entry.journal}}</em>
       {% elsif entry.type == "inproceedings" %}
-        <em>In {{entry.booktitle}}</em>
+        In <em>{{entry.booktitle}}</em>
+      {% endif %}
+      {% if entry.pages %}
+      , {{entry.pages}}
       {% endif %}
       </span>
     {% endif %}
