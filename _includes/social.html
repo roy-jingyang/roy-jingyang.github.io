@@ -115,4 +115,14 @@
   </a>
   </span>
   {% endif %}
+  
+  {% if site.cv_filename %}
+  <span class="{% if show_label %}list-group-item{% endif %} border-0">
+  <a href="{{ site.cv_filename | prepend: '/assets/pdf/' | relative_url }}"
+  target="_blank" title="CV">
+    <i class="fas fa-file-pdf "></i>
+    {% if show_label %} CV {% endif %}
+  </a>
+  </span>
+  {% endif %}
 </div>

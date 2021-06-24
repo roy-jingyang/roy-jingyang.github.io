@@ -70,7 +70,7 @@
       [<a href="{{ entry.html }}" target="_blank">HTML</a>]
     {% endif %}
     {% if entry.pdf %}
-      [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank">PDF</a>]
+      [<a href="{{ entry.pdf }}" target="_blank">pdf</a>]
     {% endif %}
     {% if entry.supp %}
       [<a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" target="_blank">Supp</a>]
@@ -88,5 +88,6 @@
       [<a href="{{ entry.demo }}" target="_blank">demo</a>]
     {% endif %}
     </span>
+    
   </div>
 </div>

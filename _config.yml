@@ -55,6 +55,8 @@ publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 
+cv_filename:
+
 contact_note: >
 
 google_analytics: # your google-analytics code
