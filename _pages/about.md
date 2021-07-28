@@ -37,13 +37,6 @@ My research interests include:
   advised by [Prof Yang Yu](http://sdcs.sysu.edu.cn/content/2529).
 - B.E. (2016), Sun Yat-sen University, China
 
-#### Experiences
-
-- Workforce analyst (March - May 2021),
-Dnata Catering Australia (Brisbane)
-- Visiting research student (May 2017; July - November 2018),
-School of Information Systems, Queensland University of Technology
-
 #### Honors and Awards
 
 - Australian Commonwealth Research Training Program (Scholarship), 
