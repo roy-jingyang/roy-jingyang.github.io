@@ -13,8 +13,8 @@ organizations to use process execution data --- available from many
 contemporary enterprise information systems as event logs --- for
 diagnosing and improving their business processes from multiple
 perspectives and on a continuing basis.
-Human resources are an area less explored in process mining, but are
-known to contribute an interesting while impactful factor to business
+Human resources contribute an area less explored in process mining, but
+are known to be an interesting while impactful factor to business
 process improvement.
 
 My research looks into the human resource perspective of process mining
