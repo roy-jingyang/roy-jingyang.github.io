@@ -43,8 +43,9 @@ What underpins the framework is our notion of organizational model that
 captures human resources, their groups, and the connection between the
 groupings and process execution.
 With this novel notion, OrdinoR lays the foundation of many exciting
-topics being researched, for example: *How can we utilize event logs for
-analyzing the behavior of resources groups working in processes?*
+topics being researched.
+For example, how to perform model analysis and analyze the behavior
+of resources groups working in processes?
 
 We are also developing a Python-based open source library that implements
 this framework and relevant methods. Keep an eye on us if you find this
