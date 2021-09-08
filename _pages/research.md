@@ -48,7 +48,7 @@ analyzing the behavior of resources groups working in processes?*
 
 We are also developing a Python-based open source library that implements
 this framework and relevant methods. Keep an eye on us if you find this
-topic interesting --- the party has started :partying_face:!
+topic interesting --- the party has started 🥳!
 
 <!--
 <nav>
