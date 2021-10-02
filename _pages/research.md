@@ -14,8 +14,7 @@ contemporary enterprise information systems as event logs --- for
 diagnosing and improving their business processes from multiple
 perspectives and on a continuing basis.
 Human resources contribute an area less explored in process mining, but
-are known to be an interesting while impactful factor to business
-process improvement.
+are recognized as an impactful factor to business process improvement.
 
 My research looks into the human resource perspective of process mining
 and centers on mining organizational models from event logs.
@@ -24,9 +23,8 @@ human resource groupings and behavior relevant to business process
 execution.
 In doing so, we aim to support organizations to make guided decisions on
 staff deployment and organization design.
-
-My research is built within *OrdinoR* ("organize resources"), our
-framework for organizational model mining. 
+Our research is built within *OrdinoR*, a
+framework for organizational model mining, as illustratrated below.
 
 <div class="w-75 mx-auto d-block">
 <figure class="figure">
@@ -34,22 +32,23 @@ framework for organizational model mining.
   class="figure-img img-fluid rounded" 
   alt="Organizational model mining framework">
   <figcaption class="figure-caption text-center">
-    Figure 1: OrdinoR: A framework for organizational model mining from event logs
+    Figure 1: OrdinoR ("organize resources"), our framework for organizational model mining from event logs
   </figcaption>
 </figure>
 </div>
 
-What underpins the framework is our notion of organizational model that
+What underpins this framework is our notion of organizational model that
 captures human resources, their groups, and the connection between the
 groupings and process execution.
 With this novel notion, OrdinoR lays the foundation of many exciting
-topics being researched.
-For example, how to perform model analysis and analyze the behavior
-of resources groups working in processes?
+topics being researched --- for example, how can we use organizational models 
+discovered from event logs to analyze the behavior of resources groups working 
+in processes?
 
-We are also developing a Python-based open source library that implements
-this framework and relevant methods. Keep an eye on us if you find this
-topic interesting --- the party has started 🥳!
+Besides the theorectical part of research, we are also developing an
+open-source Python toolkit that implements OrdinoR and the relevant methods and 
+techniques. Keep an eye on us if you find this topic interesting --- the party 
+has started 🥳!
 
 <!--
 <nav>
