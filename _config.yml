@@ -134,7 +134,7 @@ scholar:
   last_name: Yang
   first_name: [Jing, J.]
 
-  style: 
+  style: apa
   locale: en
 
   sort_by: year
@@ -161,7 +161,7 @@ enable_google_analytics:  false
 enable_katex:             true
 enable_mansory:           true
 enable_progressbar:       true
-enable_tooltips:          false
+enable_tooltips:          true
 show_social_icons:        true
 
 # -----------------------------------------------------------------------------
@@ -190,12 +190,14 @@ katex:
 mansory:
   version: "4.2.2"
   integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
-mdb:
-  version: "4.17.0"
-  integrity:
-    css: "sha256-/SwJ2GDcEt5382i8zqDwl36VJGECxEoIcBIuoLmLR4g="
-    js: "sha256-UGNYR+uy841zU5TiO2yXD96UktHt9TM4/WXvsDLr4l0="
+
+# MDBootstrap disabled (unknown compliance issue when using popovers)
+#mdb:
+#  version: "4.17.0"
+#  integrity:
+#    css: "sha256-/SwJ2GDcEt5382i8zqDwl36VJGECxEoIcBIuoLmLR4g="
+#    js: "sha256-UGNYR+uy841zU5TiO2yXD96UktHt9TM4/WXvsDLr4l0="
 popper:
-  version: "2.4.0"
-  integrity: "sha256-OH05DFHUWzr725HmuHo3pnuvUUn+TJuj8/Qz9xytFEw="
+  version: "1.12.9"
+  integrity: "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
   

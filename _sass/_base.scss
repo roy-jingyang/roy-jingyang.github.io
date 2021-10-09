@@ -277,7 +277,9 @@ footer.sticky-bottom {
         }
       }
       span {
-        display: block;
+      }
+	  span.links {
+		display: block;
       }
       .title {
         font-weight: bold;

@@ -7,7 +7,6 @@ years: []
 nav: true
 ---
 
-#### Publications
 <div class="publications">
 {% bibliography -f papers%}
 </div>
