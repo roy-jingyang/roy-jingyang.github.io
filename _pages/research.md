@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /research/
-title: research
+title: Research
 description:
 nav: true
 ---
@@ -84,13 +84,13 @@ has started 🥳!
 </div>
 -->
 
-##### Further Reading
+#### Further Reading
 
 - [An early working draft presenting the OrdinoR framework][frameworkpreprint]
-- [Characterizing resource groups using event logs (appeared on
-  BPM'21)][bpm21paper]
+- [Workforce analytics &times; Process mining: Group-oriented workforce
+  analytics (appeared on BPM'21)][forestpaper]
 - [OrdinoR: A Python toolkit for organizational model mining from event logs][rtdwebsite]
   
 [rtdwebsite]: https://royjy.me/to/ordinor
 [frameworkpreprint]: https://ordinor.readthedocs.io/en/latest/citing.html
-[bpm21paper]: https://www.researchgate.net/publication/352695691_Seeing_the_Forest_for_the_Trees_Group-Oriented_Workforce_Analytics
+[forestpaper]: ./forest_paper

@@ -1,12 +1,12 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description:
 nav: true
 ---
 
-- Tutor, *Master of Data Analytics - Advanced Project (IFN703/4)*, 2021.
+- Grader, *Master of Data Analytics - Advanced Project (IFN703/4)*, 2021.
 Queensland University of Technology
 
 - Tutor, *Rapid Web Development (IFN557)*, 2020.
