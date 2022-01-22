@@ -20,7 +20,7 @@ social: true
 #### About me
 
 - I'm a 3rd-year PhD student in Queensland University of Technology (QUT), Australia. My research focuses on discovering knowledge from business process execution data to support improved HR decisions in process management and workforce analytics. 
-- I'm also involved in a [Food Agility CRC](https://www.foodagility.com/) project investigating how predictive analytics can be applied to facilitate fast and complex decisions in crop production and sales. 
+- I'm also involved in a [Food Agility CRC](https://www.foodagility.com/people/roy-yang) project investigating how predictive analytics can be applied to facilitate fast and complex decisions in crop production and sales. 
 - I'm a member of the [Explainable Analytics for Machine Intelligence (XAMI) Lab](https://www.xami-lab.org/) at QUT.
 
 #### Education
