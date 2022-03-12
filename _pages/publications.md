@@ -7,6 +7,6 @@ years: []
 nav: true
 ---
 
-<div class="publications">
-{% bibliography -f papers%}
+<div class="publications" id="publications-full">
+{% bibliography -f papers -q @* %}
 </div>

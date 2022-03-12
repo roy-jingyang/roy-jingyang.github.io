@@ -46,9 +46,15 @@ div.content {
  ******************************************************************************/
 
 // TODO: redefine publications layout.
+#publications-full {
+  ol {
+    list-style: none;
+  }
+}
+
 .publications-short {
   ol.bibliography {
-    list-style: none;
+    list-style: inherit;
 	font-size: 0.9rem;
   }
   

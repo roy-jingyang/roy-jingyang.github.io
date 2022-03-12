@@ -86,11 +86,11 @@ has started 🥳!
 
 #### Further Reading
 
-- [An early working draft presenting the OrdinoR framework][frameworkpreprint]
+- [Our paper presenting the OrdinoR framework][frameworkpaper]
 - [Workforce analytics &times; Process mining: Group-oriented workforce
   analytics (appeared on BPM'21)][forestpaper]
 - [OrdinoR: A Python toolkit for organizational model mining from event logs][rtdwebsite]
   
 [rtdwebsite]: https://royjy.me/to/ordinor
-[frameworkpreprint]: https://ordinor.readthedocs.io/en/latest/citing.html
+[frameworkpaper]: https://ordinor.readthedocs.io/en/latest/citing.html
 [forestpaper]: ./forest_paper

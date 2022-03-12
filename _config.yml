@@ -132,13 +132,13 @@ plugins:
 scholar:
 
   last_name: Yang
-  first_name: [Jing, J.]
+  first_name: [Jing, J., Roy, R.]
 
   style: apa
   locale: en
 
-  sort_by: year
-  order: descending
+  sort_by: year, month
+  order: ascending
 
   source: /_bibliography/
   bibliography: papers.bib
