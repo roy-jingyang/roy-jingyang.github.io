@@ -138,7 +138,7 @@ scholar:
   locale: en
 
   sort_by: year, month
-  order: ascending
+  order: descending
 
   source: /_bibliography/
   bibliography: papers.bib
