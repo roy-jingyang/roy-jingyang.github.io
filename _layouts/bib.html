@@ -59,7 +59,11 @@
         {% elsif entry.type == "inproceedings" %}
           In <em>{{entry.booktitle}}</em>
         {% endif %}
- 
+        
+        {% if entry.volume %}
+          , <em>{{entry.volume}}</em>
+        {% endif %}
+        
         {% if entry.pages %}
           , {{entry.pages}}.
         {% endif %}
