@@ -17,7 +17,7 @@ Human resources contribute an area less explored in process mining, but
 are recognized as an impactful factor to business process improvement.
 
 My research looks into the human resource perspective of process mining
-and centers on mining organizational models from event logs.
+and centers around organizational model mining from event logs.
 We develop models, methods, and software tools to extract insights into
 human resource groupings and behavior relevant to business process
 execution.

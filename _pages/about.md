@@ -19,14 +19,15 @@ social: true
 
 #### About me
 
-- I'm a 3rd-year PhD student in Queensland University of Technology (QUT), Australia. My research focuses on discovering knowledge from business process execution data to support improved HR decisions in process management and workforce analytics. 
-- I'm also involved in a [Food Agility CRC](https://www.foodagility.com/people/roy-yang) project investigating how predictive analytics can be applied to facilitate fast and complex decisions in crop production and sales. 
+- I'm a 3rd-year PhD student at Queensland University of Technology (QUT), Australia. I'm interested in discovering knowledge from process execution data to support improved decision-making, especially knowledge about (human) resources. 
+- My current research focuses on mining organizational models from process execution data and applying them for workforce analytics ([read more](./research)). 
+- I'm also involved in a [Food Agility CRC](https://www.foodagility.com/people/roy-yang) project investigating how process modeling and predictive process analytics can be applied to facilitate complex decisions in crop production and sales planning. 
 - I'm a member of the [Explainable Analytics for Machine Intelligence (XAMI) Lab](https://www.xami-lab.org/) at QUT.
 
 #### Education
 
 - PhD (current), Queensland University of Technology, Australia \\
-  *Thesis title: "Discover Organizational Knowledge via Process Mining"*, \\
+  *Thesis title: "Discovering Organizational Models from Event Logs for Workforce Analytics*, \\
   advised by 
   [Dr. Chun Ouyang](https://staff.qut.edu.au/staff/c.ouyang), 
   [Prof. Arthur ter
@@ -35,7 +36,7 @@ social: true
 - M.E. (2019), Sun Yat-sen University, China \\
   *Thesis title: "An Organizational Mining Method for Supporting Business
   Process Redesign"*, \\
-  advised by [Prof. Yang Yu](http://sdcs.sysu.edu.cn/content/2529).
+  advised by [Prof. Yang Yu](https://sse.sysu.edu.cn/teacher/163).
 - B.E. (2016), Sun Yat-sen University, China
 
 #### Honors and Awards
