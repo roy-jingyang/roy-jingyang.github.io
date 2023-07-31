@@ -21,7 +21,7 @@ social: true
 
 - I'm a PhD candidate at Queensland University of Technology (QUT), Australia. I'm interested in discovering knowledge from process execution data to support improved decision-making, especially knowledge about (human) resources. 
 - My current research focuses on mining organizational models from process execution data and applying them for workforce analytics ([read more](./research)). 
-- I'm also involved in [Foragecaster](https://www.agriwebb.com/video/webinar-introducing-foragecaster/), a [Food Agility CRC](https://www.foodagility.com) project that aims at building an tailored, AI-empowered pasture, livestock supply, and sustainability forecaster.
+- I'm also involved in [Foragecaster](https://www.agriwebb.com/video/webinar-introducing-foragecaster/), a [Food Agility CRC](https://www.foodagility.com) project that aims at building a tailored, AI-powered pasture, livestock supply, and sustainability forecaster.
 - I'm a member of the [Explainable Analytics for Machine Intelligence (XAMI) Lab](https://www.xami-lab.org/) at QUT.
 
 #### Education
