@@ -2,15 +2,15 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-author: Roy Jing Yang
+author: Jing (Roy) Yang
 author_other: 杨靖
-title: Roy J Yang
+title: Jing (Roy) Yang
 email: roy.j.yang@qut.edu.au
 motto: >
   <a href="https://en.wikipedia.org/wiki/Fan_Zhongyan#Literary_works"
   target="_blank">“不以物喜，不以己悲”（<宋>范仲淹 1046）</a>
 description: > # this means to ignore newlines until "url:"
-  Welcome to my personal website
+  Welcome to my personal webpage
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.
   Based on <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
@@ -85,13 +85,13 @@ collections:
   news:
     defaults:
       layout: post
-    output: false
+    output: true
     permalink: /news/:path/
   projects:
-    output: false
+    output: true
     permalink: /projects/:path/
 
-news_limit: 5
+news_limit: 3
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

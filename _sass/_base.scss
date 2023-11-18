@@ -9,7 +9,10 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Segou UI", Arial, Helvetica, sans-serif;
+  // sans-serif
+  // font-family: "Segou UI", Arial, Helvetica, sans-serif;
+  // serif
+  font-family: "Palatino", Georgia, serif;
   font-weight: 400;
 }
 
@@ -49,7 +52,7 @@ a, table.table a {
     }
     .contact-icon {
       font-size: 0.875rem;
-      font-weight: bold;
+      // font-weight: bold;
       a {
         color: $grey-color-dark;
         &:hover {
@@ -87,7 +90,7 @@ a, table.table a {
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
       color: $theme-color;
-      font-weight: bolder;
+      // font-weight: bolder;
       &:hover {
         color: $theme-color;
       }
@@ -144,6 +147,9 @@ a, table.table a {
 
 .news table td {
   font-size: 1rem;
+  ul {
+    margin: 0;
+  }
 }
 
 // Footer
@@ -230,10 +236,18 @@ footer.sticky-bottom {
 
 // Projects
 
+.project .grid {
+  display: grid;
+  align-content: center;
+}
+
 .projects {
   .grid-item {
-    width: 250px;
+    width: 100%;
+    margin-top: 10px;
     margin-bottom: 10px;
+    border: none;
+    
     a {
       color: black;
       text-decoration: none;
@@ -242,11 +256,13 @@ footer.sticky-bottom {
       }
     }
   }
+  .card {
+    border-style: none;
+  }
   .card img {
     width: 100%;
   }
 }
-
 
 // Publications
 
