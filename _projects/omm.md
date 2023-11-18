@@ -4,8 +4,11 @@ permalink: /projects/omm
 title: Organizational Model Mining
 description: >
   Event logs can be a promising source for discovering knowledge on 
-  organizational structures and empowering workforce analytics. 
+  organizational structures and empowering workforce analytics. Novel process 
+  mining methods unlock this opportunity.
 nav: false
+importance: 11
+is_index: true
 ---
 
 Today's process mining techniques have empowered numerous modern

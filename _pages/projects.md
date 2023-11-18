@@ -10,6 +10,7 @@ nav: true
 
   {% assign sorted_projects = site.projects | sort: "importance" %}
   {% for project in sorted_projects %}
+  {% if project.is_index %}
   <div class="grid-item">
     {% if project.redirect %}
     <a href="{{ project.redirect }}" target="_blank">
@@ -42,6 +43,7 @@ nav: true
       </div>
     </a>
   </div>
-{% endfor %}
+  {% endif %}
+  {% endfor %}
 
 </div>

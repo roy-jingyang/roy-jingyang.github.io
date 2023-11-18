@@ -7,6 +7,7 @@ description: >
   profile human resource group behavior from multiple aspects relevant to 
   workforce performance.
 nav: false
+is_index: false
 ---
 
 #### Empower HR Decisions with Workforce Analytics

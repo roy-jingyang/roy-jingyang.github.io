@@ -23,8 +23,8 @@ to support improved decision-making, especially knowledge about (human)
 resources. 
 
 My current research focuses on mining organizational models from process
-execution data and applying them to workforce analytics ([read
-more](./projects/omm)). 
+execution data and applying them to workforce analytics [[read
+more](./projects/omm)]. 
 
 I'm also involved in
 [Foragecaster](https://www.agriwebb.com/foragecaster/){:target="_blank"}, a
@@ -46,7 +46,7 @@ Lab](https://www.xami-lab.org/){:target="_blank"} at QUT.
   [Chun Ouyang](https://staff.qut.edu.au/staff/c.ouyang){:target="_blank"}, 
   [Arthur ter Hofstede](https://arthurterhofstede.github.io/){:target="_blank"}, 
   and [Wil van der Aalst](http://www.vdaalst.com/){:target="_blank"}. 
-  An e-copy of my doctoral thesis can be download via [this link]()
+  An e-copy of my doctoral thesis can be download via [[this link]()].
 
 - Master degree in Computer Science and Technologies (2019), Sun Yat-sen University, China \\
   Thesis title: "An Organizational Mining Method for Supporting Business Process
