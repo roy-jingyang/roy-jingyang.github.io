@@ -24,7 +24,7 @@ resources.
 
 My current research focuses on mining organizational models from process
 execution data and applying them to workforce analytics [[read
-more](./projects/omm)]. 
+more](/projects/omm)]. 
 
 I'm also involved in
 [Foragecaster](https://www.agriwebb.com/foragecaster/){:target="_blank"}, a

@@ -27,7 +27,7 @@ execution.
 In doing so, we aim to support organizations to make guided decisions on
 staff deployment and organization design.
 Our research is built within *OrdinoR*, a
-framework for organizational model mining, as illustratrated below.
+framework for organizational model mining, as illustrated below.
 
 <div class="w-75 mx-auto d-block">
 <figure class="figure">
@@ -48,7 +48,7 @@ topics being researched --- for example, how can we use organizational models
 discovered from event logs to analyze the behavior of resources groups working 
 in processes?
 
-Besides the theorectical part of research, we are also developing an
+Besides the theoretical part of research, we are also developing an
 open-source Python toolkit that implements OrdinoR and the relevant methods and 
 techniques. Keep an eye on us if you find this topic interesting --- the party 
 has started 🥳!
@@ -96,4 +96,4 @@ has started 🥳!
   
 [rtdwebsite]: https://royjy.me/to/ordinor
 [frameworkpaper]: https://ordinor.readthedocs.io/en/latest/citing.html
-[forestpaper]: ./forest
+[forestpaper]: /projects/omm/forest
