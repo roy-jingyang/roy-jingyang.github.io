@@ -46,7 +46,7 @@ Lab](https://www.xami-lab.org/){:target="_blank"} at QUT.
   [Chun Ouyang](https://staff.qut.edu.au/staff/c.ouyang){:target="_blank"}, 
   [Arthur ter Hofstede](https://arthurterhofstede.github.io/){:target="_blank"}, 
   and [Wil van der Aalst](http://www.vdaalst.com/){:target="_blank"}. 
-  An e-copy of my doctoral thesis can be download via [[this link]()].
+  An e-copy of my doctoral thesis can be download via [[this link](./assets/thesis_roys_version.pdf)].
 
 - Master degree in Computer Science and Technologies (2019), Sun Yat-sen University, China \\
   Thesis title: "An Organizational Mining Method for Supporting Business Process
