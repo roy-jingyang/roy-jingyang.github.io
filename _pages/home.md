@@ -41,7 +41,7 @@ Lab](https://www.xami-lab.org/){:target="_blank"} at QUT.
 #### Education
 
 - Ph.D. (2023), Queensland University of Technology, Australia \\
-  Thesis title: "Discovering Organizational Models from Event Logs for Workforce Analytics,
+  Thesis title: "Discovering Organizational Models from Event Logs for Workforce Analytics",
   advised by 
   [Chun Ouyang](https://staff.qut.edu.au/staff/c.ouyang){:target="_blank"}, 
   [Arthur ter Hofstede](https://arthurterhofstede.github.io/){:target="_blank"}, 
@@ -59,8 +59,8 @@ Lab](https://www.xami-lab.org/){:target="_blank"} at QUT.
 
 - Graduate of Merit, Food Agility, 2023
 - Australian Commonwealth Research Training Program (Scholarship), 2019-2023
-- Food Agility CRC Top-up Scholarship, 2021-2022
-- High-Achiever Higher Degree Research Student, March 2022
+- Top-up Scholarship, Food Agility, 2021-2022
+- High-Achiever Higher Degree Research Student, QUT, March 2022
 - Excellent Master Student Award, Sun Yat-sen University, 2018
 - Meritorious Winner (`Team 37861`) the Mathematical Contest in Modelling,
 Consortium for Mathematics and Its Applications (COMAP), 2015
