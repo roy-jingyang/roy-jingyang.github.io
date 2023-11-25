@@ -48,7 +48,7 @@ Lab](https://www.xami-lab.org/){:target="_blank"} at QUT.
   and [Wil van der Aalst](http://www.vdaalst.com/){:target="_blank"}. 
   An e-copy of my doctoral thesis can be download via [[this link](./assets/thesis_roys_version.pdf)].
 
-- Master degree in Computer Science and Technologies (2019), Sun Yat-sen University, China \\
+- Master degree in Computer Science and Technology (2019), Sun Yat-sen University, China \\
   Thesis title: "An Organizational Mining Method for Supporting Business Process
   Redesign" (in Chinese), advised by 
   [Yang Yu](https://sse.sysu.edu.cn/teacher/163){:target="_blank"}.
