@@ -19,22 +19,14 @@
               {% if author.last == site.scholar.last_name %}
                 <em>{{author.last}}, {{author.first|strip|truncate: 2, '.')}}</em>,
               {% else %}
-                {% if site.data.coauthors[author.last] %}
-                  <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first|strip|truncate: 2, '.')}}</a>,
-                {% else %}
-                  {{author.last}}, {{author.first|strip|truncate: 2, '.')}},
-                {% endif %}
+                {{author.last}}, {{author.first|strip|truncate: 2, '.')}},
               {% endif %}
             {% else %}
               <!-- If the last author -->
               {% if author.last == site.scholar.last_name %}
                 &#38; <em>{{author.last}}, {{author.first|strip|truncate: 2, '.')}}</em>
               {% else %}
-                {% if site.data.coauthors[author.last] %}
-                  &#38; <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first|strip|truncate: 2, '.')}}</a>
-                {% else %}
-                  &#38; {{author.last}}, {{author.first|strip|truncate: 2, '.')}}
-                {% endif %}
+                &#38; {{author.last}}, {{author.first|strip|truncate: 2, '.')}}
               {% endif %}
             {% endunless %}
           {% endif %}

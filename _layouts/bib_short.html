@@ -19,21 +19,13 @@
           {% if author.last == site.scholar.last_name %}
             {{author.first}} {{author.last}},
           {% else %}
-            {% if site.data.coauthors[author.last] %}
-              <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>,
-            {% else %}
-              {{author.first}} {{author.last}},
-            {% endif %}
+            {{author.first}} {{author.last}},
           {% endif %}
         {% else %}
           {% if author.last == site.scholar.last_name %}
             and {{author.first}} {{author.last}}
           {% else %}
-            {% if site.data.coauthors[author.last] %}
-              and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>
-            {% else %}
-              and {{author.first}} {{author.last}}
-            {% endif %}
+            and {{author.first}} {{author.last}}
           {% endif %}
         {% endunless %}
       {% endif %}
