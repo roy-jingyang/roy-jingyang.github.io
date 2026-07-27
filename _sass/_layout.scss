@@ -34,6 +34,19 @@
   }
 }
 
+// Keep the desktop sidebar (avatar + contact links) fixed in the viewport
+// while the text column next to it scrolls. `align-self: flex-start` stops
+// the Bootstrap row (a flex container) from stretching this column to match
+// the taller content column, which would otherwise leave sticky positioning
+// nothing to stick within.
+.profile.col-md-3 {
+  position: sticky;
+  top: 56px;
+  align-self: flex-start;
+  max-height: calc(100vh - 56px);
+  overflow-y: auto;
+}
+
 // TODO: redefine content layout.
 div.content {
   // let content div takes up the rest of the space
