@@ -117,5 +117,5 @@ fields the templates look for:
 - `pdf=`, `arxiv=`, `html=`, `code=`, `demo=`, `slides=`, `poster=`,
   `supp=` — each adds a corresponding link if present; omit any that don't
   apply.
-- `accepted={true}` — adds an "(accepted)" label, for in-press work without
-  a DOI yet.
+- For in-press work without a DOI yet, note the status directly in a
+  standard field, e.g. `pages={(accepted, in press)}`.

@@ -8,25 +8,45 @@
     {% else %}
       <span class="author">
         {% for author in entry.author_array %}
+          {% comment %}
+            APA 7th edition reference-list author format: "Surname, F. M.",
+            with any surname particle (van, von, der, ter, de, ...) kept
+            attached to the surname, and each given/middle name reduced to
+            an initial.
+          {% endcomment %}
+          {% assign apa_name = "" %}
+          {% unless author.prefix == blank %}
+            {% assign apa_name = author.prefix | append: " " %}
+          {% endunless %}
+          {% assign apa_name = apa_name | append: author.last | append: ", " %}
+          {% assign given_words = author.first | remove: "{" | remove: "}" | strip | split: " " %}
+          {% for word in given_words %}
+            {% assign initial = word | slice: 0, 1 | upcase %}
+            {% assign apa_name = apa_name | append: initial | append: "." %}
+            {% unless forloop.last %}
+              {% assign apa_name = apa_name | append: " " %}
+            {% endunless %}
+          {% endfor %}
+
           {% if forloop.length == 1 %}
             {% if author.last == site.scholar.last_name %}
-              <em>{{author.last}}, {{author.first|strip|truncate: 2, '.')}}</em>
+              <em>{{ apa_name }}</em>
             {% else %}
-              {{author.last}}, {{author.first|strip|truncate: 2, '.')}}
+              {{ apa_name }}
             {% endif %}
           {% else %}
             {% unless forloop.last %}
               {% if author.last == site.scholar.last_name %}
-                <em>{{author.last}}, {{author.first|strip|truncate: 2, '.')}}</em>,
+                <em>{{ apa_name }}</em>,
               {% else %}
-                {{author.last}}, {{author.first|strip|truncate: 2, '.')}},
+                {{ apa_name }},
               {% endif %}
             {% else %}
               <!-- If the last author -->
               {% if author.last == site.scholar.last_name %}
-                &#38; <em>{{author.last}}, {{author.first|strip|truncate: 2, '.')}}</em>
+                &#38; <em>{{ apa_name }}</em>
               {% else %}
-                &#38; {{author.last}}, {{author.first|strip|truncate: 2, '.')}}
+                &#38; {{ apa_name }}
               {% endif %}
             {% endunless %}
           {% endif %}
@@ -42,23 +62,17 @@
       <span class="title">{{entry.title}}.</span>
 
       <span class="periodical">
-        {% if entry.accepted == "true" %}
-		   <em> (accepted) </em>
-	    {% endif %}
-	  
-        {% if entry.type == "article" %}
+        {%- if entry.type == "article" -%}
           <em>{{entry.journal}}</em>
-        {% elsif entry.type == "inproceedings" %}
+        {%- elsif entry.type == "inproceedings" -%}
           In <em>{{entry.booktitle}}</em>
-        {% endif %}
-        
-        {% if entry.volume %}
+        {%- endif -%}
+        {%- if entry.volume -%}
           , <em>{{entry.volume}}</em>
-        {% endif %}
-        
-        {% if entry.pages %}
+        {%- endif -%}
+        {%- if entry.pages -%}
           , {{entry.pages}}.
-        {% endif %}
+        {%- endif -%}
       </span>
     
       <span>

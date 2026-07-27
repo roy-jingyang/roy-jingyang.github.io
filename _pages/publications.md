@@ -8,12 +8,12 @@ nav: true
 ---
 
 <p class="text-secondary">
-    For accurate citation and BibTeX export please visit: 
+    For latest publication data and accurate citation, please visit my DBLP page: 
     <a href="https://dblp.org/pid/62/5839-40.html" target="_blank">
         https://dblp.org/pid/62/5839-40.html
     </a>
 </p>
 
 <div class="publications" id="publications-full">
-{% bibliography -f publications -q @* %}
+{% bibliography -q @* %}
 </div>
