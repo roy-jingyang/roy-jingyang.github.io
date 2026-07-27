@@ -3,5 +3,5 @@
 .jekyll-cache
 .DS_store
 .ruby-version
-Gemfile.lock
+_site
 

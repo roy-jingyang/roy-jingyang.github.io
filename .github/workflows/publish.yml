@@ -13,11 +13,22 @@ jobs:
     steps:
     # Step 1: Checkout the repository
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
-    # Step 2: Deploy to GitHub Pages (sync to `gh-pages` branch)
+    # Step 2: Set up Ruby and install gems
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.3'
+        bundler-cache: true
+
+    # Step 3: Build the Jekyll site
+    - name: Build site
+      run: bundle exec jekyll build
+
+    # Step 4: Deploy to GitHub Pages (sync to `gh-pages` branch)
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_site  # Directory where your built static site is located (adjust to your project structure)

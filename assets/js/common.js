@@ -1,8 +1,12 @@
-$(document).ready(function() {
-    $('a.abstract').click(function() {
-        $(this).parent().parent().find(".abstract.hidden").toggleClass('open');
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('a.abstract').forEach(function (link) {
+    link.addEventListener('click', function () {
+      link.parentElement.parentElement.querySelector('.abstract.hidden').classList.toggle('open');
     });
-    $('a.bibtex').click(function() {
-        $(this).parent().parent().find(".bibtex.hidden").toggleClass('open');
+  });
+  document.querySelectorAll('a.bibtex').forEach(function (link) {
+    link.addEventListener('click', function () {
+      link.parentElement.parentElement.querySelector('.bibtex.hidden').classList.toggle('open');
     });
+  });
 });
