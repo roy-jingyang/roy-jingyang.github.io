@@ -34,6 +34,14 @@ body.sticky-bottom-footer {
   width: 100%;
 }
 
+.profile.col-md-3 {
+  position: sticky;
+  top: 56px;
+  align-self: flex-start;
+  max-height: calc(100vh - 56px);
+  overflow-y: auto;
+}
+
 div.content {
   flex-grow: 1;
 }
@@ -73,11 +81,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a, table.table a {
-  color: #00369f;
+  color: navy;
   text-decoration: none;
 }
 a:hover, table.table a:hover {
-  color: #00369f;
+  color: navy;
   text-decoration: underline;
 }
 a:hover:after, table.table a:hover:after {
@@ -100,14 +108,19 @@ a:hover:after, table.table a:hover:after {
   margin-top: 1rem;
 }
 .profile .contact-icon {
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 .profile .contact-icon a {
   color: #3e3e3e;
 }
 .profile .contact-icon a:hover {
-  color: #00369f;
+  color: navy;
   text-decoration: none;
+}
+.profile .contact-icon a i {
+  width: 1.25rem;
+  text-align: center;
+  margin-right: 0.25rem;
 }
 .profile .contact-note {
   font-size: 0.75rem;
@@ -123,14 +136,14 @@ a:hover:after, table.table a:hover:after {
   text-decoration: none;
 }
 .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
-  color: #00369f;
+  color: navy;
 }
 .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
   background-color: inherit;
-  color: #00369f;
+  color: navy;
 }
 .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link:hover {
-  color: #00369f;
+  color: navy;
 }
 .navbar.navbar-light .contact-icon {
   float: left;
@@ -140,7 +153,7 @@ a:hover:after, table.table a:hover:after {
   color: #3e3e3e;
 }
 .navbar.navbar-light .contact-icon a:hover {
-  color: #00369f;
+  color: navy;
 }
 
 .news table td {
@@ -164,7 +177,7 @@ footer {
   padding-bottom: 5rem;
 }
 .header-bar h1 {
-  color: #00369f;
+  color: navy;
   font-size: 5rem;
 }
 
@@ -189,18 +202,18 @@ footer {
   text-decoration: none;
 }
 .post-list li a:hover {
-  color: #00369f;
+  color: navy;
 }
 
 .pagination .page-item.active .page-link {
-  background-color: #00369f;
+  background-color: navy;
 }
 .pagination .page-item.active .page-link:hover {
-  background-color: #00369f;
+  background-color: navy;
 }
 
 .distill a:hover {
-  border-bottom-color: #00369f;
+  border-bottom-color: navy;
   text-decoration: none;
 }
 
@@ -218,13 +231,13 @@ footer {
   text-decoration: none;
 }
 .projects .grid-item a:hover {
-  color: #00369f;
+  color: navy;
 }
 .projects .card {
   border-style: none;
 }
 .projects .card:hover {
-  color: #00369f;
+  color: navy;
 }
 .projects .card img {
   width: 100%;
@@ -252,7 +265,7 @@ footer {
 }
 .publications ol.bibliography li .abbr abbr {
   display: inline-block;
-  background-color: #00369f;
+  background-color: navy;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -263,7 +276,7 @@ footer {
   font-weight: bold;
 }
 .publications ol.bibliography li .author a {
-  border-bottom: 1px dashed #00369f;
+  border-bottom: 1px dashed navy;
 }
 .publications ol.bibliography li .author a:hover {
   border-bottom-style: solid;
@@ -275,7 +288,7 @@ footer {
 }
 .publications ol.bibliography li em.star {
   border-bottom: none;
-  color: #00369f;
+  color: navy;
   font-style: normal;
 }
 .publications ol.bibliography li a.abstract, .publications ol.bibliography li a.bibtex {
