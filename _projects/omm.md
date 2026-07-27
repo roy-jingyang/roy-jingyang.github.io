@@ -16,8 +16,8 @@ organizations to use process execution data --- available from many
 contemporary enterprise information systems as event logs --- for
 diagnosing and improving their business processes from multiple
 perspectives and on a continuing basis.
-Human resources contribute an area less explored in process mining, but
-are recognized as an impactful factor to business process improvement.
+Human resources represent an area less explored in process mining, but
+are recognized as an impactful factor in business process improvement.
 
 My research looks into the human resource perspective of process mining
 and centers around organizational model mining from event logs.
@@ -40,12 +40,12 @@ framework for organizational model mining, as illustrated below.
 </figure>
 </div>
 
-What underpins this framework is our notion of organizational model that
+What underpins this framework is our notion of an organizational model that
 captures human resources, their groups, and the connection between the
 groupings and process execution.
 With this novel notion, OrdinoR lays the foundation of many exciting
 topics being researched --- for example, how can we use organizational models 
-discovered from event logs to analyze the behavior of resources groups working 
+discovered from event logs to analyze the behavior of resource groups working 
 in processes?
 
 Besides the theoretical part of research, we are also developing an

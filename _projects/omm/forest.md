@@ -88,7 +88,7 @@ source: BPI Challenge 2015).
   <figcaption class="figure-caption">
     Workload of the five municipalities: <br>
     Their focuses on different process tasks seem to align (left), but 
-    municipality #1 have its own working hours arrangements on Wednesdays (right)
+    municipality #1 has its own working hours arrangements on Wednesdays (right)
   </figcaption>
 </figure>
 </div>
