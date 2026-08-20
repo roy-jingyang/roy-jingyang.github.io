@@ -6,9 +6,8 @@ permalink: /
 profile:
   image: avatar.jpg
   keywords:
-    researcher, process mining, business process management, data science
+    researcher, process mining, data science
   address: 
-    School of Information Systems,
     Queensland University of Technology.
     2 George St Brisbane, QLD 4000, Australia
 
@@ -17,26 +16,18 @@ news: true
 social: true
 ---
 
-I am a postdoctoral research fellow at Queensland University of Technology (QUT),
-Australia. I'm interested in knowledge discovery from process execution data
-to support evidence-based decisions on human workforce, collaboration between
-humans and AI agents, and advanced forms of process automation. 
+I am a postdoctoral research fellow at Queensland University of Technology (QUT), Australia. I'm interested in process
+mining, business process management, and trustworthy AI systems engineering.
 
-My current research focuses on mining organizational models from process
-execution data and applying them to workforce analytics [[read
-more](/projects/omm)].
+My research on process mining focuses on organizational mining to support reliable workforce decisions and enhance
+process orchestration with human and autonomous software agents.
 
-I'm also a key contributor to
-[Foragecaster](https://www.agriwebb.com/foragecaster/){:target="_blank"}, a
-project that aims at developing an AI-powered planner system to support farmers'
-decisions on forage, grazing livestock, and farm sustainability. I lead the
-research on data quality and explainability, where we develop systematic methods
-to evaluate key farm production data, address data quality issues, and
-investigate their root causes to improve future data management and ensure
+My research work also extends into agricultural data science. I'm a key contributor to
+[Foragecaster](https://www.agriwebb.com/foragecaster/){:target="_blank"}, a project that aims at developing an
+AI-powered planner system to support farmers' decisions on forage, grazing livestock, and farm sustainability. I lead
+the research on data quality and explainability, where we develop systematic methods to evaluate key farm production
+data, address data quality issues, and investigate their root causes to improve future data management and ensure
 effective use of machine learning models in a data-centric way.
-
-I'm a member of the [Explainable Analytics for Machine Intelligence (XAMI)
-Lab](https://www.xami-lab.org/){:target="_blank"} at QUT.
 
 <hr>
 
